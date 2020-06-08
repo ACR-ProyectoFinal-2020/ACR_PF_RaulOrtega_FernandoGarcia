@@ -255,7 +255,7 @@ public final class Cliente extends javax.swing.JFrame implements ActionListener 
                     if (comando.equals("/help")) {
                         pantalla.append("\nComandos válidos:\n");
                         pantalla.append("\t/list - listar contenido del servidor\n");
-                        pantalla.append("\t/down - descargar archivo del servidor\n");
+                        pantalla.append("\t/down 'nombre del archivo' - descargar archivo del servidor\n");
                         pantalla.append("\t/clsc - limpiar pantalla\n");
                     }
                     if (comando.equals("/list")) {
